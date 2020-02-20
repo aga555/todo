@@ -39,6 +39,8 @@ export class ListManagerComponent implements OnInit {
   updateItem(item: TodoItem, changes: any) {
     this.listService.updateItem(item, changes);
 
-
+  /*editItem(item:TodoItem,changes: any){
+    this.listService.editItem(item,changes);
+    }*/
   }
 }
